@@ -1,0 +1,138 @@
+export const CATEGORIES = [
+  { id: 'all', name: 'All Dishes', icon: 'Utensils' },
+  { id: 'burgers', name: 'Burgers', icon: 'Beef' },
+  { id: 'pizza', name: 'Artisan Pizza', icon: 'Pizza' },
+  { id: 'bowls', name: 'Healthy Bowls', icon: 'Salad' },
+  { id: 'asian', name: 'Asian Fusion', icon: 'Soup' },
+  { id: 'desserts', name: 'Desserts', icon: 'IceCream' },
+  { id: 'drinks', name: 'Beverages', icon: 'Coffee' },
+];
+
+export const INITIAL_FOOD_ITEMS = [
+  {
+    id: 1,
+    name: 'Smokey Double Smash Cheeseburger',
+    description: 'Double Angus beef patties, aged cheddar, caramelized onions, crispy bacon, house secret sauce on toasted brioche.',
+    price: 14.99,
+    category: 'burgers',
+    rating: 4.9,
+    reviewsCount: 342,
+    prepTime: '15-20 min',
+    image: '/images/burger.jpg',
+    tags: ['Bestseller', 'Chef Special'],
+    isSpicy: false,
+    isVegetarian: false,
+    calories: 850
+  },
+  {
+    id: 2,
+    name: 'Wood-Fired Truffle Pepperoni Pizza',
+    description: 'Neapolitan style sourdough crust, San Marzano tomato sauce, fresh mozzarella, artisan pepperoni, truffle oil drizzle.',
+    price: 18.50,
+    category: 'pizza',
+    rating: 4.8,
+    reviewsCount: 289,
+    prepTime: '20-25 min',
+    image: '/images/pizza.jpg',
+    tags: ['Customer Favorite'],
+    isSpicy: true,
+    isVegetarian: false,
+    calories: 920
+  },
+  {
+    id: 3,
+    name: 'Wild Salmon & Avocado Poke Bowl',
+    description: 'Sustainably caught fresh salmon, sliced hass avocado, edamame, cucumber, radish, sesame quinoa, citrus ponzu dressing.',
+    price: 16.25,
+    category: 'bowls',
+    rating: 4.9,
+    reviewsCount: 195,
+    prepTime: '10-15 min',
+    image: '/images/bowl.jpg',
+    tags: ['Healthy Choice', 'Gluten Free'],
+    isSpicy: false,
+    isVegetarian: false,
+    calories: 540
+  },
+  {
+    id: 4,
+    name: 'Spicy Dragon Tonkotsu Ramen',
+    description: 'Rich 16-hour pork bone broth, tender chashu belly, handmade ramen noodles, nitamago egg, chili crisp, spring onions.',
+    price: 15.75,
+    category: 'asian',
+    rating: 4.9,
+    reviewsCount: 412,
+    prepTime: '15-20 min',
+    image: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80',
+    tags: ['Spicy', 'Popular'],
+    isSpicy: true,
+    isVegetarian: false,
+    calories: 760
+  },
+  {
+    id: 5,
+    name: 'Garden Goddess Buddha Bowl',
+    description: 'Roasted sweet potato, spiced chickpeas, massaged kale, avocado, hemp seeds, creamy lemon tahini dressing.',
+    price: 13.50,
+    category: 'bowls',
+    rating: 4.7,
+    reviewsCount: 140,
+    prepTime: '12-15 min',
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80',
+    tags: ['100% Vegan', 'High Fiber'],
+    isSpicy: false,
+    isVegetarian: true,
+    calories: 460
+  },
+  {
+    id: 6,
+    name: 'Molten Belgian Chocolate Lava Cake',
+    description: 'Warm dark chocolate cake with a molten center, served with Madagascar vanilla bean gelato and raspberry coulis.',
+    price: 8.99,
+    category: 'desserts',
+    rating: 4.95,
+    reviewsCount: 510,
+    prepTime: '10 min',
+    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80',
+    tags: ['Decadent Dessert'],
+    isSpicy: false,
+    isVegetarian: true,
+    calories: 580
+  },
+  {
+    id: 7,
+    name: 'Crispy Korean Garlic Wings',
+    description: 'Double-fried chicken wings tossed in soy garlic honey glaze, toasted sesame seeds, pickled daikon radish.',
+    price: 12.99,
+    category: 'asian',
+    rating: 4.85,
+    reviewsCount: 310,
+    prepTime: '15-20 min',
+    image: 'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=800&q=80',
+    tags: ['Crispy & Juicy'],
+    isSpicy: true,
+    isVegetarian: false,
+    calories: 710
+  },
+  {
+    id: 8,
+    name: 'Matcha Iced Oat Latte',
+    description: 'Ceremonial grade Uji matcha whisked with organic oat milk and house vanilla bean syrup over ice.',
+    price: 6.25,
+    category: 'drinks',
+    rating: 4.8,
+    reviewsCount: 178,
+    prepTime: '5 min',
+    image: 'https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=800&q=80',
+    tags: ['Refreshment'],
+    isSpicy: false,
+    isVegetarian: true,
+    calories: 180
+  }
+];
+
+export const SAMPLE_PROMO_CODES = {
+  'SPRING20': 0.20,
+  'WELCOME10': 0.10,
+  'FREEDEL': 'FREE_SHIPPING'
+};
